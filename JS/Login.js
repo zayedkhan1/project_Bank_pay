@@ -10,6 +10,7 @@ document.getElementById('btn_login').addEventListener('click',function(event){
   //checking the input field
   if(phone_Number=='01927220142' &&  password_text=='12345678'){
     console.log('you are loged in')
+    window.location.href='/HTML/Home.html'
   }else{
     console.log('incorrect password')
   }
