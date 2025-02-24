@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payoo HOME</title>
+    <style>
+        .two{
+            display: none;
+        }
+      
+    </style>
 </head>
 <body>
     <main>
         <h1>WElcome to my home PAGe</h1>
+       
+        <section>
+            <div>
+                <h2 id="balance">45000</h2>
+                <p>Available Balance</p>
+                <hr>
+            </div>
+            <div>
+                <button id="add_btn">Add Money</button>
+                <button id="out_btn">Cash Out</button>
+            </div>
+            <hr>
+            <form action="">
+                <label for="money">
+                    <input   id="money_field" type="text" placeholder="Amount" required>
+                </label><br>
+                <label for="passowrd">
+                    <input id="pin_field"  type="password" placeholder=" passowrd" required>
+                </label><br>
+                <button  id="btn_addMOney">ADD Money</button>
+                <button class="two" id="btn_cashOut">Cash out</button>
+            </form>
+
+        </section>
+
+
     </main>
+    <script src="/JS/Home.js"></script>
 </body>
 </html>
